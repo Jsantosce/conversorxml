@@ -1,5 +1,5 @@
 # conversorxml
 
 
-converte xml nfe em excel 
+converte xml Cf-e em excel 
 
