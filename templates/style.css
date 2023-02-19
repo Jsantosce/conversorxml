@@ -1,4 +1,5 @@
-body {
+
+  body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
   }
@@ -8,7 +9,13 @@ body {
     text-align: center;
     margin-top: 20px;
   }
+  
+  p{
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
 
+  }
   form {
     max-width: 500px;
     margin: 0 auto;
@@ -16,6 +23,11 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px #bbb;
+  }
+  .socla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   input[type=file] {
@@ -53,3 +65,4 @@ body {
     height: 30px;
   }
   
+  background-color: #f0f0f0;
