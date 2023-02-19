@@ -5,21 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
   <title>Nf-e para Xlsx</title>
 </head>
 <body>
-  <h1>Converte XML NFE para XLSX</h1>
+  <h1>Converte XML para XLSX</h1>
+  <p>Arquivos aceitos CF-e NF-e NFC-e</p>
     <form method="post" enctype="multipart/form-data">
       <input type="file" name="xml_files" multiple>
       <button type="submit">Converte</button>
     </form>
+
+    <form action="social">
     <div class="social-links">
       <a href="https://github.com/Jsantosce" target="_blank">
-        <img src="caminho-para-o-icon-do-github" alt="GitHub" />
+        <img src="/static/git.png" alt="GitHub" />
       </a>
       <a href="https://www.linkedin.com/in/janniofsantos/" target="_blank">
-        <img src="caminho-para-o-icon-do-linkedin" alt="LinkedIn" />
+        <img src="/static/download.png" alt="LinkedIn" />
       </a>
+    </form>
     </div>
     
 </body>
